@@ -40,6 +40,3 @@ const callModal = (header, body, button) => {
     } 
   });
 }
-
-const btn = document.querySelector('.blah');
-btn.addEventListener("click", () => callModal());
