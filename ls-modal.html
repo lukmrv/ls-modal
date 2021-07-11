@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Modal</title>
+
+    <link rel="stylesheet" href="./ls-modal.css">
+    <script src="./ls-modal.js"></script>
+
+</head>
+<body>
+    
+    <!-- initializing button -->
+    <button 
+        onclick="callModal(
+            'Test One','Aplikacja do obsługi karty kryptograficznej dla systemów MacOS jest udostępniana <b>mailowo</b>. W celu uzyskania linku instalatora prosimy o kontakt na <u>wsparcie@eurocert.pl</u>',''
+        )">
+        Modal Call button
+    </button>
+    <button
+        onclick="callModal('Header Text', 'Body Text', 'Button Text',)">
+        Modal Call button
+    </button>
+
+</body>
+</html>
