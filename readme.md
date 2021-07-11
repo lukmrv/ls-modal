@@ -12,7 +12,7 @@ ls-modal.css
 ## 2. Add to the HTML:
 
 ```html
-<link rel="stylesheet" href="./ls-modal.css"> \
+<link rel="stylesheet" href="./ls-modal.css"> 
 <script async src="./ls-modal.js"></script>
 ```
 
