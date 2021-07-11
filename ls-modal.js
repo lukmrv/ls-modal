@@ -24,21 +24,22 @@ const callModal = (header, body, button) => {
   const modalButton = document.querySelector(".ls-modal-button");
 
   const animateExit = (appliedTo) => {
-    setTimeout(() => document.body.removeChild(modal), 180);
     (function() {
       appliedTo.classList.add('fade');
     }());
+    // delay for the fadeout (matches css animation)
+    setTimeout(() => document.body.removeChild(modal), 180);
   }
 
   modalButton.addEventListener("click", async () => {
-    animateExit(modalWindow)
+    animateExit(modalWindow);
   });
   modalWindow.addEventListener("click", (e) => {
     if (e.target === modalWindow) {
-      animateExit(modalWindow)
+      animateExit(modalWindow);
     } 
   });
 }
 
 const btn = document.querySelector('.blah');
-btn.addEventListener("click", () => callModal())
+btn.addEventListener("click", () => callModal());
