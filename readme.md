@@ -2,11 +2,11 @@
 
 Simple & light modal window alerts
 
-![](modal.jpg)
+![modal example](./modal.JPG)
 
 ## 1. Add files to the project:
 
-ls-modal.js
+ls-modal.js \
 ls-modal.css
 
 ## 2. Add to the HTML:
