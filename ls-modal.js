@@ -1,6 +1,3 @@
-// initializing button
-const showModal = document.querySelector(".ls-modal");
-
 const callModal = (header, body, button) => {
   const modal = document.createElement('div');
   const modalHtml = `
