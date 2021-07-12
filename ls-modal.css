@@ -35,17 +35,16 @@
 }
 .ls-modal-contents {
     flex-direction: column;
-    padding: 20px 0px;
-    height: 70%;
 }
 .ls-modal-header {
     font-size: var(--ls-font-header);
+    padding: 10px 0px;
 }
 .ls-modal-body {
     font-size: var(--ls-font-body);
+    padding: 10px 0px;
 }
 .ls-modal-button-wrapper {
-    height: 30%;
     padding: 10px;
 }
 .ls-modal-button {

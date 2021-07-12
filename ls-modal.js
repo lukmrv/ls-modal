@@ -4,10 +4,9 @@ const callModal = (header, body, button) => {
       <div class="ls-modal-background ls-modal-flex">
           <div class="ls-modal-inner ls-modal-flex">
               <div class="ls-modal-contents ls-modal-flex">
-                <span class="ls-modal-header">
+                <span class="ls-modal-header ls-modal-flex">
                     <b>${header || "Attention!"}</b>
                 </span>
-                <br>
                 <span class="ls-modal-body">
                     ${body || "This is default modal body text"}
                 </span>
