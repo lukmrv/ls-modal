@@ -32,12 +32,3 @@ From code:
 const btn = document.querySelector('.neededButtonTrigger');
 btn.addEventListener("click", () => callModal('Header Text', 'Body Text', 'Button Text'));
 ```
-
-##### Change modal font sizes in css:
-I guess..
-```css
-:root {
-    --ls-font-header: 1.75rem;
-    --ls-font-body: 1.25rem;
-}
-```
